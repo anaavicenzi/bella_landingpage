@@ -730,23 +730,10 @@ img {
 }
 
 .projects__subtitle{
-  position: relative;
-  display: inline-block;
-  font-size: var(--small-font-size);
-  font-weight: var(--font-medium);
-  color: var(--text-color);
-  margin-bottom: .75rem;
-  padding-left: 1.75rem;
-}
-
-.projects__subtitle::after{
-  content: '';
-  width: 20px;
-  height: 1px;
-  background-color: var(--text-color);
-  position: absolute;
-  top: 50%;
-  left: 0;
+  text-align: center;
+  color: var(--title-color);
+  font-weight: var(--font-regular);
+  margin: 1.5rem;
 }
 
 .projects__buttons{
@@ -1573,7 +1560,7 @@ img {
   .projects__container{
     grid-template-columns: repeat(3, 352px);
     padding-block: 3rem 1rem;
-  }
+  }  
 
   .projects__card{
     display: flex;
